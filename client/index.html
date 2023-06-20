@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./main.css" type="text/css" rel="stylesheet" />
+    <link href="./login.css" type="text/css" rel="stylesheet" />
+    
+    <script src="./main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header id="loginForm">
+        <div class="fadeIn first">
+            <img src="../server/public/assets/banner/logo.jpeg" id="icon" alt="User Icon" />
+          </div>
+
+        <input type="text" CssClass="fadeIn second" name="username" id="username" placeholder="Username"/>
+        <input type="password" CssClass="fadeIn third" name="password" id="password" placeholder="Username"/>
+        <div class="login-button"><button id="loginBtn" CssClass="fadeIn fourth">Login</button></div>
+        <em id='page-header'><p class='logo'><img src="../server/public/assets/banner/logo.jpeg" alt="Logo"></p>
+            <div class="welcome-message">
+                <h2>
+                    <p class='welcomeMsg'></p>
+                </h2>
+            </div>
+            <button id="logoutBtn">Logout</button></em>
+    </header>
+
+
+    <div class="welcome-message fadeIn messageAnimation">
+        <h2>
+            <p>Welcome To My Store!</p>
+        </h2>
+    </div>
+    <div id='main-content'>
+
+        <h1>Product List</h1>
+        <table id="products">
+
+        </table>
+
+        <h1>Your shopping cart</h1>
+        <table id="cart">
+
+        </table>
+        <p id='placeOrder'> </p>
+    </div>
+</body>
+
+</html>

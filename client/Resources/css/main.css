@@ -1,0 +1,352 @@
+/*Header CSS*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 16px;
+  /* border-bottom: 3px double orange; */
+}
+
+#logo
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+#logo > img.halfSize{
+  height: 75px;
+  width: 75px;
+  border: 3px dotted teal;
+  border-radius: 50%;
+}
+
+.welcome-message h2 {
+  align-content: center;
+  font-size: 36px;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:lightseagreen;
+}
+
+.welcome-message h5 {
+  font-size: 36px;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:lightseagreen;
+}
+
+.logout-button button {
+  padding: 16px;
+  margin: 2px;
+  background-color:lightcoral;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  /* size: 3em; */
+  width:99%;
+}
+
+.login-button button {
+  padding: 16px;
+  margin: 2px;
+  background-color:turquoise;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  /* size: 3em; */
+  width:99%;
+}
+
+.logout-button button:hover {
+  background-color: #d32f2f;
+  color: black;
+  border: 2px dotted black;
+}
+
+.login-button button:hover {
+  background-color: gray;
+  color: white;
+}
+
+/*Table CSS*/
+
+
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid black;
+
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: 60em;
+}
+
+.table-design {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-design th,
+.table-design td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.table-design th {
+  background-color: rgb(115, 193, 132);
+  /* border: 1px solid black; */
+  color: #030035;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+}
+
+.table-design tr:nth-child(even) {
+  background-color: #cfe4f8;
+}
+.table-design tr:nth-child(odd) {
+  background-color: #f9d6e3;
+}
+
+.table-design tr:hover {
+  background-color: papayawhip;
+}
+
+.table-design .highlight {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+.order_div {
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50em;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-header {
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+  background-color: grey;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 8px;
+  border: 1px dotted black;
+  text-align: center;
+}
+
+.table-cell-input {
+  width: 20px;
+}
+
+td.table-last-row {
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: right;
+  background-color:rgb(247, 228, 228);
+  font-size: 1.6em;
+  border: 1px solid rgb(247, 228, 228);
+}
+
+.table-cell-span-3 {
+  flex-basis: 100%;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.table-cell > img {
+  width: 20px;
+}
+
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+/*Place Order Button*/
+.place-order-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  float: right;
+}
+
+.checker_section{
+  float: left;
+}
+.checker_section .html_css_class {
+  display: inline-block;
+}
+
+.html_css_class img {
+  width: 100px;
+  height: 33px;
+}
+
+em{
+  font-weight: bold;
+  border-width: 2px;
+  border-color: #d32f2f;
+}
+
+/*Quantity design*/
+.quantity{
+  max-width: 6em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.quantity-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.quantity-btn {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 2px solid grey;
+  border-radius: 4px;
+  /* cursor: pointer; */
+}
+
+.quantity-field {
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+}
+
+
+body {
+  /* border: 1px solid grey; */
+  background-color: transparent;
+}
+
+#main-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+span{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 16px;
+  flex-basis: 100%;
+  /* border-bottom: 3px double orange; */
+
+  /* margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px; */
+}
+#siteHeader,
+#page-header, 
+#loginForm {
+  font-size: 16px;
+  margin-left: 0px;
+  /* border-bottom: 1px dotted grey; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+}
+
+.page-header{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 10px double goldenrod;
+  border-radius: 10%;
+}
+
+input {
+  font-size: 12px;
+  width: 20%;
+  height: 50%;
+}
+
+#logoutBtn, #loginBtn {
+  border: 2px solid floralwhite;
+  padding: 0.9em;
+  margin: 7px;
+  /* color: darkslategrey; */
+  /* width: 10%;
+  height: 25%; */
+  /* padding: 4px; */
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.product-image{
+  height: 24px;
+  width: 24px;
+}
+
+#welcomeMsg{
+  font-size: 24px;
+}
+
+#welcomeToStoreMsg{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
