@@ -21,7 +21,7 @@ let db = [
         "name": "Node.js",
         "price": 20,
         "stock": 15,
-        "image": "http://localhost:3690/images/node.png"
+        "image": "../images/node.png"
     },
     {
         "id": "2",
@@ -35,7 +35,7 @@ let db = [
         "name": "Angular",
         "price": 15,
         "stock": 17,
-        "image": `http://localhost:3000/images/angular.png`
+        "image": "http://localhost:3000/images/angular.png",
     },
     {
         "id": "4",

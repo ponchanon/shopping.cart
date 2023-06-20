@@ -49,7 +49,7 @@
   width:99%;
 }
 
-.login-button button {
+/* .login-button button {
   padding: 16px;
   margin: 2px;
   background-color:turquoise;
@@ -58,9 +58,8 @@
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
-  /* size: 3em; */
   width:99%;
-}
+} */
 
 .logout-button button:hover {
   background-color: #d32f2f;
@@ -305,15 +304,11 @@ input {
   height: 50%;
 }
 
-#logoutBtn, #loginBtn {
+/* #logoutBtn, #loginBtn {
   border: 2px solid floralwhite;
   padding: 0.9em;
   margin: 7px;
-  /* color: darkslategrey; */
-  /* width: 10%;
-  height: 25%; */
-  /* padding: 4px; */
-}
+} */
 
 table {
     font-family: arial, sans-serif;

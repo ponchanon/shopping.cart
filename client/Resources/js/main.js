@@ -97,7 +97,7 @@ async function fetchProducts() {
                     <td><img class="product-image" src='"${prod.image}"' alt='icon'/></td>
                     <td class="row-data">${prod.stock}</td>
                     <td class="row-data">
-                        <button class="btn btn-primary" onclick="addToCartBtn()" ><i class="fa fa-shopping-cart"></i></button>
+                        <button id="btnAc${prod.id}" class="btn btn-primary" onclick="addToCartBtn()" ><i class="fa fa-shopping-cart"></i></button>
                     </td>
                 </tr>
             `
