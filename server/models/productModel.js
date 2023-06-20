@@ -10,7 +10,7 @@ const path = require('path');
 //     // Parse the text data into a JavaScript array
 //     const dbInitial = JSON.parse(data);
 //     console.log(dbInitial)
-//     return data;
+//     return dbInitial;
 // });
 
 //considering static DB for products
@@ -21,7 +21,7 @@ let db = [
         "name": "Node.js",
         "price": 20,
         "stock": 15,
-        "image": `http://localhost:3690/images/node.png`
+        "image": "http://localhost:3690/images/node.png"
     },
     {
         "id": "2",
