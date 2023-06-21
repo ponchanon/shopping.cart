@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Shoe",
-        "price": 20,
+        "price": 21,
         "stock": 15,
         "image": "Resources/images/shoe.jpeg"
     },

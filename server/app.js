@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
-//mapping routers & models
+//mapping routers & models ()
 const productRouter = require("./routes/productRouter");
 const cartRouter = require("./routes/cartRouter");
 const userRouter = require("./routes/userRouter");
@@ -11,9 +11,10 @@ const User = require("./models/usersModel");
 
 const app = express();
 app.use(cors());
-app.use(express.json());
 
-//user token verification
+app.use(express.json()); 
+
+//user (token) verification 
 const verifyUserToken = (req, res, next) => {
   const auth = req.headers.authorization;
   const token = auth.split(" ")[1];

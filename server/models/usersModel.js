@@ -1,8 +1,8 @@
 //Considering static users DB
 let users = [
-    { id: 1, username: 'ponchanon', password: '615866', accessToken: '' },
-    { id: 2, username: 'moynul', password: '616161', accessToken: '' },
-    { id: 3, username: 'admin', password: '1212', accessToken: '' }
+    { id: 1, fullname:'Ponchanon Datta Rone', username: 'ponchanon', password: '615866', accessToken: '' },
+    { id: 2, fullname:'Moynul Islam', username: 'moynul', password: '616161', accessToken: '' },
+    { id: 3, fullname:'Admin User', username: 'admin', password: '1212', accessToken: '' }
 ];
 
 //Creating User Class

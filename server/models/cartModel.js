@@ -1,6 +1,7 @@
 //cart model structuring and linking product model
 const Product = require("./productModel");
 
+//Considering with a blank cart if the server is switched on
 let cartDB = [];
 let counter = 0;
 

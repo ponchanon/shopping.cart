@@ -41,7 +41,7 @@ module.exports = class Product {
     return this;
   }
 
-  //Fetching product list
+  //Fetching all products from the db
   static getAll() {
     return db;
   }

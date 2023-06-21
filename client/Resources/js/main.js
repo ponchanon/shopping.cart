@@ -1,4 +1,7 @@
+//API END POINT
+//https://ponchanon.github.io/shopping.cart/server
 endPoint = `http://localhost:3000/`;
+
 
 window.onload = function () {
   let accessToken = sessionStorage.getItem("accessToken");
