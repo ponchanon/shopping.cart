@@ -7,8 +7,6 @@ let users = [
 
 //Creating User Class
 module.exports = class User {
-
-    ////Creating User Constructor
     constructor(id, username, password) {
         this.id = id;
         this.username = username;
@@ -26,6 +24,7 @@ module.exports = class User {
             users.splice(userIndex, 1, this);
             return this;
         }
+
         else return null;
     }
 

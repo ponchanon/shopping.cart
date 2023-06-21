@@ -5,16 +5,14 @@
   justify-content: space-between;
   background-color: #f2f2f2;
   padding: 16px;
-  /* border-bottom: 3px double orange; */
 }
 
-#logo
-.logo img {
+#logo .logo img {
   height: 100px;
   width: 100px;
 }
 
-#logo > img.halfSize{
+#logo > img.halfSize {
   height: 75px;
   width: 75px;
   border: 3px dotted teal;
@@ -26,63 +24,59 @@
   font-size: 36px;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:lightseagreen;
+  color: lightseagreen;
 }
 
 .welcome-message h5 {
   font-size: 36px;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:lightseagreen;
+  color: lightseagreen;
 }
 
 .logout-button button {
   padding: 16px;
   margin: 2px;
-  background-color:lightcoral;
-  color: black;
+  background-color: lightcoral;
+  color: white;
   border: none;
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
-  /* size: 3em; */
-  width:99%;
+  width: 99%;
 }
 
-/* .login-button button {
-  padding: 16px;
-  margin: 2px;
-  background-color:turquoise;
-  color: black;
-  border: none;
-  border-radius: 10px;
+.login-button button {
+  font-weight: 700;
+  margin: 0 7px;
+  display: block;
+  width: 84%;
+  background-color: #2ccc92;
+  color: white;
+  padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  width:99%;
-} */
+  text-align: center;
+}
 
 .logout-button button:hover {
   background-color: #d32f2f;
-  color: black;
-  border: 2px dotted black;
+  color: white;
 }
 
 .login-button button:hover {
-  background-color: gray;
+  background-color: #04aa6d;
   color: white;
 }
 
 /*Table CSS*/
-
-
-
 .table {
   display: flex;
   flex-direction: column;
   border: 0px solid black;
 
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2em;
   margin-bottom: 1em;
   width: 60em;
@@ -102,7 +96,6 @@
 
 .table-design th {
   background-color: rgb(115, 193, 132);
-  /* border: 1px solid black; */
   color: #030035;
   font-weight: bold;
   text-align: center;
@@ -124,16 +117,9 @@
   background-color: yellow;
 }
 
-
-
-
-
-
-
-
 .order_div {
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   width: 50em;
 }
 
@@ -166,7 +152,7 @@ td.table-last-row {
   font-style: oblique;
   font-weight: bold;
   text-align: right;
-  background-color:rgb(247, 228, 228);
+  background-color: rgb(247, 228, 228);
   font-size: 1.6em;
   border: 1px solid rgb(247, 228, 228);
 }
@@ -181,32 +167,12 @@ td.table-last-row {
   width: 20px;
 }
 
-h2{
+h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:rebeccapurple;
+  color: rebeccapurple;
 }
 
-
-
-
-
-
-
-
-
-/*Place Order Button*/
-.place-order-button {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  font-size: 18px;
-  cursor: pointer;
-  float: right;
-}
-
-.checker_section{
+.checker_section {
   float: left;
 }
 .checker_section .html_css_class {
@@ -218,21 +184,20 @@ h2{
   height: 33px;
 }
 
-em{
+em {
   font-weight: bold;
   border-width: 2px;
   border-color: #d32f2f;
 }
 
 /*Quantity design*/
-.quantity{
+.quantity {
   max-width: 6em;
   display: flex;
   flex-direction: row;
   text-align: center;
   margin: 0 auto;
 }
-
 
 .quantity-input {
   display: flex;
@@ -245,45 +210,45 @@ em{
   color: #333;
   border: 2px solid grey;
   border-radius: 4px;
-  /* cursor: pointer; */
 }
 
-.quantity-field {
-  /* border: 1px solid #ccc; */
-  /* border-radius: 4px; */
+.quantity button span {
+  font-weight: 700;
+  font-size: 16px;
 }
 
+.cart-button,
+.cart-button:hover,
+.cart-button:visited,
+.cart-button:active,
+.cart-button:focus {
+  color: white;
+}
 
 body {
-  /* border: 1px solid grey; */
   background-color: transparent;
 }
 
-#main-content{
+#main-content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-span{
+span {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
   padding: 16px;
   flex-basis: 100%;
-  /* border-bottom: 3px double orange; */
-
-  /* margin-left: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px; */
 }
+
 #siteHeader,
-#page-header, 
+#page-header,
 #loginForm {
   font-size: 16px;
   margin-left: 0px;
-  /* border-bottom: 1px dotted grey; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -291,7 +256,7 @@ span{
   width: 100%;
 }
 
-.page-header{
+.page-header {
   margin-top: 1em;
   margin-bottom: 1em;
   border-bottom: 10px double goldenrod;
@@ -304,44 +269,33 @@ input {
   height: 50%;
 }
 
-/* #logoutBtn, #loginBtn {
-  border: 2px solid floralwhite;
-  padding: 0.9em;
-  margin: 7px;
-} */
-
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-  
-tr:nth-child(even) {
-    background-color: #dddddd;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.product-image{
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.product-image {
   height: 24px;
   width: 24px;
 }
 
-#welcomeMsg{
+#welcomeMsg {
   font-size: 24px;
 }
 
-#welcomeToStoreMsg{
+#welcomeToStoreMsg {
   font-size: 30px;
   text-align: center;
 }
-
-
-
-
-
-

@@ -1,5 +1,3 @@
-
-
 const User = require('../models/usersModel')
 
 exports.login = async (req, res) => {

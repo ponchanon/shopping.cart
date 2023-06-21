@@ -1,5 +1,3 @@
-
-
 const Product = require('../models/productModel');
 
 exports.save = (req, res, next) => {

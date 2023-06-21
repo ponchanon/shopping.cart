@@ -1,5 +1,3 @@
-
-
 const Cart = require("../models/cartModel");
 const Product = require("../models/productModel");
 
@@ -14,8 +12,6 @@ exports.createCart = async (req, res) => {
     catch(error){
         res.status(400).json({ error: error.message });
     }
-
-    
 }
 
 exports.getCart = async (req, res) => {
@@ -45,9 +41,7 @@ exports.deleteCart = (req, res) => {
     }
 }
 
-
 exports.placeOrder = (req, res) => {
-
     const user = req.user;
     try {
         const carts = Cart.getCarts(user);
