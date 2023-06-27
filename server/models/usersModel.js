@@ -7,10 +7,11 @@ let users = [
 
 //Creating User Class
 module.exports = class User {
-    constructor(id, username, password) {
+    constructor(id, username, password, fullName) {
         this.id = id;
         this.username = username;
         this.password = password;
+        this.fullName = fullName;
     }
 
     //user login method
